@@ -19,7 +19,8 @@ public class MainActivity extends AppCompatActivity {
         Observer<String> observer = new Observer<String>() {
             @Override
             public void onCompleted() {
-                Log.i("132","123");
+                Log.i("1234","Gsfa");
+                Log.i("dafa","Gasg");
             }
 
             @Override
