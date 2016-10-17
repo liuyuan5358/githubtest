@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
             public void onCompleted() {
                 Log.i("1234","Gsfa");
                 Log.i("dafa","Gasg");
+                Log.i("1321","4124");
             }
 
             @Override
