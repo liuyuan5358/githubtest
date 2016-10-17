@@ -2,6 +2,7 @@ package com.example.rxjava;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 
 import rx.Observable;
 import rx.Observer;
@@ -18,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         Observer<String> observer = new Observer<String>() {
             @Override
             public void onCompleted() {
-
+                Log.i("132","123");
             }
 
             @Override
